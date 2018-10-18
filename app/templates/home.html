@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<title>Eastman-Potential-Customer-Prediction App</title>
+<head>
+<style>
+h1 {color:darkslategray;}
+</style>
+</head>
+<div align="center">
+<h1 style="font-family:verdana;">Potential Customer Prediction</h1>
+</div>
+
+<style type="text/css">
+  .bgtext {
+    position: relative;
+  }
+  .bgtext:after {
+    content: "";
+    position: absolute;
+    display:block;
+    top: 1;
+    left:-1;
+    text-align: center;
+    z-index: 1;
+    color:red;
+    font-size:100px;
+  }
+</style>
+
+<div class="bgtext">
+</div>
+
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-img {
+    /* The image used */
+    background-image:url("C:/Users/Abin/Desktop/Case_Study/deployment/app/static/east.jpg");
+
+    min-height: 50px;
+
+    /* Center and scale the image nicely */
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    max-width: 100px;
+    padding: 5px;
+    background-color: white;
+}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 6%;
+    padding: 5px 5px;
+    margin: 1px 0 1px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=text]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 6%;
+    opacity: 0.9;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+</style>
+</head>
+
+<body>
+
+
+<div class="bg-img">
+ <form action = "/getdelay" method="POST">
+   <div align="center">
+   <p><b>Age:<input type="text" name="Age"></b></p>
+   <p><b>CCAvg:<input type="text" name="CCAvg"></b></p>   
+   <p><b>Income:<input type="text" name="Income"></b></p>
+   <p><b>Family_2:<input type="text" name="Family_2"></b></p>
+   <p><b>Family_3:<input type="text" name="Family_3"></b></p>
+   <p><b>Family_4:<input type="text" name="Family_4"></b></p>
+   <p><b>Mortgage:<input type="text" name="Mortgage"></b></p>
+   <p><b>Experience:<input type="text" name="Experience"></b></p>
+   <p><b>Education_2:<input type="text" name="Education_2"></b></p>
+   <p><b>Education_3:<input type="text" name="Education_3"></b></p>
+   <p><b>CDAccount_1:<input type="text" name="CDAccount_1"></b></p>
+   <p><b>CCAvg_Income_ratio:<input type="text" name="CCAvg_Income_ratio"></b></p>
+ 
+
+   <p><button type="sumbit" class="btn">Submit</button></p>
+ </form>
+
+
+
+<address>
+Developed by<br> 
+Eastman Chemical India<br>
+Hyderabad<br>
+</address>
+
+</body>
+</html>
+
+
+
+  
+
+  
+  
+  
+
+   
+    
+    
+    
+    
+    
+    
+    
+    
+    
